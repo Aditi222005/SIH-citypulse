@@ -29,7 +29,7 @@ const App = () => (
         <AuthProvider>
           <Routes>
             {/* The Login page is a public route outside the main layout */}
-            <Route path="/login" element={<Login />} />
+            <Route path="/dashboard" element={<Dashboard />} />
 
             {/* The main app layout is protected */}
             <Route 
